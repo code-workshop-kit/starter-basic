@@ -8,7 +8,6 @@ We will discuss and practice with the following JavaScript concepts:
   - Arrow Functions
   - Callbacks
   - Closures
-  - ? Call, Apply, Bind
 - Inheritance in JavaScript
   - ES6 Classes
   - this
@@ -20,15 +19,15 @@ We will discuss and practice with the following JavaScript concepts:
   - ForEach
   - Map
   - Filter
-  - ? Find
-  - ? Every & some
-  - ? Reduce
+  - Find
+  - Every & some
+  - Reduce
 - Object
   - entries, keys, values
   - iterate by keys
   - Map (show iterate is way easier, order = order of insertion, has size property)
   - Set (= Map with unique values)
-  - ? WeakMap/WeakSet (= Use this for better garbage collection/performance, unless you want to have a list of keys, then you should use normal Map/Set)
+  - WeakMap/WeakSet (= Use this for better garbage collection/performance, unless you want to have a list of keys, then you should use normal Map/Set)
 
 ## Functions
 
@@ -385,8 +384,8 @@ fruitbowl.fruits = {
   apple: true,
   banana: false,
   orange: true,
-  kiwi: true, // dangling commas are okay :) in fact, they are great! because it makes it easier to add stuff underneath
-  'grape-fruit': false,
+  kiwi: true,
+  'grape-fruit': false, // dangling commas are okay :) in fact, they are great! because it makes it easier to add stuff underneath
 };
 ```
 
