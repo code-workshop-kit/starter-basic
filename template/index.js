@@ -1,1 +1,1 @@
-console.log('Hello, <%= participantName %>');
+export default `<p>Hello, <%= participantName %>!</p>`;
