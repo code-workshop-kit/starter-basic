@@ -1,31 +1,15 @@
 # Starter basic
 
-Starter setup code-workshop-kit, using a very basic HTML/CSS/JS environment, with an index.html entrypoint.
-
-Uses iframes to render the participants' content.
-
-See [What if i dont use a javascript single entry point file](https://github.com/code-workshop-kit/cwk-frontend#what-if-i-dont-use-a-javascript-single-entry-point-file) for more information.
+Starter setup code-workshop-kit, using a very basic JS app environment, with an index.js entrypoint that contains a default export with a template to be rendered in the participant's capsule/page.
 
 ## Installation
 
 ```sh
-yarn
-```
-
-or
-
-```sh
-npm install
+npm i
 ```
 
 Then
 
 ```sh
-yarn scaffold && yarn start
-```
-
-or
-
-```sh
-npm run scaffold && npm run start
+npm run key && npm run scaffold && npm run start
 ```
