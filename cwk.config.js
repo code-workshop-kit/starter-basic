@@ -1,10 +1,15 @@
 export default {
-  appKey: '19233e785917e3cf1009d8b836c43ed1b327eb78032d97fed8ec58d8',
   participants: ['Joren', 'Felix', 'Maurice', 'Cornelis', 'Henri', 'Arjan', 'Martijn'],
+  appKey: 'c5ad7060f7e815272acf455b932bd7db481e1ac927e54161b9637da5',
   admins: ['Joren'],
-  adminPassword: 'pineapples',
+  adminPassword: 'pines',
   title: 'Workshop',
-  // target: 'terminal',
-  // terminalScript: 'javac Main.java && java Main',
-  // excludeFromWatch: ['class'],
+  targetOptions: {
+    mode: 'module',
+  },
+  templateData: {
+    participantNameLower() {
+      return this.participantName.toLowerCase();
+    },
+  },
 };

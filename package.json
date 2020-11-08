@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "code-workshop-kit": "^0.10.2"
+    "code-workshop-kit": "^1.0.4"
   },
   "devDependencies": {
     "prettier": "2.0.5"
@@ -20,7 +20,7 @@
   "prettier": {
     "printWidth": 100,
     "singleQuote": true,
-    "arrowParens": "avoid",
+    "arrowParens": "always",
     "trailingComma": "all"
   }
 }
